@@ -1,6 +1,4 @@
-a = 1
-b = 2
-c = a + b
-print(c)
-b += 1
-print(c)
+a = [1, 2, 3]
+b = "".join(map(str, a))
+
+print(b)
